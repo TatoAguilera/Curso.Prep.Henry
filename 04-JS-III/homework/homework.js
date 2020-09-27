@@ -15,7 +15,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return array.length
+  return array.length;
 }
 
 function incrementarPorUno(array) {
@@ -23,11 +23,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoArray= []
-  for(var i = 0; i< array.length;i++) {
-    nuevoArray[i] = array[i] + 1;
+  let Array= []
+  for(let i = 0; i< array.length;i++) {
+    Array[i] = array[i] + 1;
   }
-  return nuevoArray
+  return Array
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
